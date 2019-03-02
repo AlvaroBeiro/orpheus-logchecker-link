@@ -1,4 +1,4 @@
-Add logchecker.php link to apollo.rip
+Add logchecker.php link to orpheus.network
 
 Position configurable from User Edit page
 
