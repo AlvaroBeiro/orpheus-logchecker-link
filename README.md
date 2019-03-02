@@ -1,4 +1,4 @@
-Add logchecker.php link to orpheus.network
+Adds a logchecker.php link to orpheus.network
 
 <b>Click [here](https://github.com/AlvaroBeiro/orpheus-logchecker-link/raw/master/src/orpheus-logchecker-link.user.js) to install</b>
 
