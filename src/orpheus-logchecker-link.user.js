@@ -1,6 +1,6 @@
 // ==UserScript==
 
-// @name           Apollo Logchecker Link
+// @name           Orpheus Logchecker Link
 // @author         SavageCore
 // @namespace      https://savagecore.eu
 // @description    Inserts a logchecker.php link in main menu.
@@ -8,7 +8,7 @@
 // @version        0.1.2
 // @grant          GM_getValue
 // @grant          GM_setValue
-// @downloadURL    https://github.com/SavageCore/apollo-logchecker-link/raw/master/src/apollo-logchecker-link.user.js
+// @downloadURL    https://github.com/AlvaroBeiro/orpheus-logchecker-link/raw/master/src/orpheus-logchecker-link.user.js
 
 /*	global document GM_getValue	GM_setValue window */
 
@@ -21,7 +21,7 @@ if (window.location.href.match('user.php\\?action=edit&userid=')) {
 	var lastRow = document.getElementById('site_tooltips_tr');
 
 	var tr = document.createElement('tr');
-	tr.id = 'apollo_logchecker_tr';
+	tr.id = 'orpheus_logchecker_tr';
 	var td = document.createElement('td');
 	td.className = 'label tooltip';
 	td.innerHTML = '<strong>Logchecker link location</strong>';
@@ -29,8 +29,8 @@ if (window.location.href.match('user.php\\?action=edit&userid=')) {
 	var td2 = document.createElement('td');
 	tr.appendChild(td2);
 	var select = document.createElement('select');
-	select.name = 'apollo_logchecker';
-	select.id = 'apollo_logchecker';
+	select.name = 'orpheus_logchecker';
+	select.id = 'orpheus_logchecker';
 	td2.appendChild(select);
 	var menuOptions = {
 		0: {value: 'mainMenu', innerText: 'Main Menu'},
@@ -48,7 +48,7 @@ if (window.location.href.match('user.php\\?action=edit&userid=')) {
 
 	lastRow.insertAdjacentElement('afterend', tr);
 
-	var select = document.getElementById('apollo_logchecker');
+	var select = document.getElementById('orpheus_logchecker');
 	for (var i = 0; i < select.options.length; i++) {
 		if (select.options[i].value === position) {
 			select.options[i].selected = 'selected';
