@@ -6,6 +6,6 @@ Position configurable from User Edit page
 
 ![Imgur](http://i.imgur.com/Nm3LXaJ.png)
 
-- <i>Main Menu</i> places the link between Wiki and <i>Username</i>
-- <i>User Info</i> places it in the bottom of the dropdown menu next to <i>Username</i>
-- <i>User Info Major</i> places it between <i>Donate</i> and <i>Staff</i>
+- <b>Main Menu</b> places the link between <i>Wiki</i> and <i>Username</i>
+- <b>User Info</b> places it in the bottom of the dropdown menu next to <i>Username</i>
+- <b>User Info Major</b> places it between <i>Donate</i> and <i>Staff</i>
