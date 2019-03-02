@@ -4,7 +4,7 @@
 // @author         SavageCore
 // @namespace      https://savagecore.eu
 // @description    Inserts a logchecker.php link in main menu.
-// @include        http*://*apollo.rip/*
+// @include        http*://*orpheus.network/*
 // @version        0.1.2
 // @grant          GM_getValue
 // @grant          GM_setValue
