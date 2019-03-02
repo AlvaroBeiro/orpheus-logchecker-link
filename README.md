@@ -4,4 +4,4 @@ Position configurable from User Edit page
 
 ![Imgur](http://i.imgur.com/Nm3LXaJ.png)
 
-Click [here](https://github.com/SavageCore/apollo-logchecker-link/raw/master/src/apollo-logchecker-link.user.js) to install
+Click [here](https://github.com/AlvaroBeiro/orpheus-logchecker-link/raw/master/src/orpheus-logchecker-link.user.js) to install
