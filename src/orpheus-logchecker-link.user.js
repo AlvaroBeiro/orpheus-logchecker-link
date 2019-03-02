@@ -1,8 +1,7 @@
 // ==UserScript==
 
 // @name           Orpheus Logchecker Link
-// @author         SavageCore
-// @namespace      https://savagecore.eu
+// @author         AlvaroBeiro
 // @description    Inserts a logchecker.php link in main menu.
 // @include        http*://*orpheus.network/*
 // @version        0.1.2
