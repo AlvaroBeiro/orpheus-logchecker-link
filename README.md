@@ -9,5 +9,3 @@ Position configurable from User Edit page
 - <b>Main Menu</b> places the link between <i>Wiki</i> and <i>Username</i>
 - <b>User Info</b> places it in the bottom of the dropdown menu next to <i>Username</i>
 - <b>User Info Major</b> places it between <i>Donate</i> and <i>Staff</i>
-
-All credit to [SavageCore](https://github.com/SavageCore/apollo-logchecker-link) for the original script, I only updated it to make it compatible to Orpheus
